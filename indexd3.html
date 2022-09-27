@@ -1,0 +1,56 @@
+	<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 系统关系图 </title>
+    
+	<style type="text/css">
+	  #d3ForceEasyStage{
+		
+	  }
+	  #d3ForceEasyStage .hide{
+		display: none;
+	  }
+	    
+	  #d3ForceEasyStage .circle {
+		stroke: black;
+	  }
+	  
+	  #d3ForceEasyStage .circle.selected{
+		stroke: #a9e2ff;
+		stroke-width:3px;
+	  }
+	  #d3ForceEasyStage .force-node{
+		cursor: default;
+	  }
+	
+	  #icons {
+		display: none;
+		filter: url(#drop-shadow);
+	  }
+
+     
+		
+		.line-text text, .links line:hover {
+			cursor: pointer;
+		}
+
+	</style>
+	<link rel="stylesheet" href="./RadialMenu.css">
+	    <script type="text/javascript" src="./d3.js"></script>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./RadialMenu.js"></script>
+	<script type="text/javascript" src="./relation.js"></script>
+    <script type="text/javascript" src="./system_relation.js"></script>
+
+</head>
+<body>
+	<div id="prem5">
+       <div id="option_prem5" style="width:100%;height:500px;text-align:center">
+	   </div>
+
+   	</div>
+</body>
+</html>
